@@ -60,6 +60,7 @@ function sortearAmigo(){
     
     let amigoSorteado = amigos[indiceAleatorio]; // Usa el indice aleatorio para obtener el nombre de la lista                                                                    
     
-    
-
+    //Mostrar el resultado en el HTML
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `Amigo sorteado: <strong> ${amigoSorteado} </strong>`;
 }
